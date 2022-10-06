@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useState } from 'react';
 //api
 import { getProducts } from '../Services/api'
 //Context
-const ProductContext = createContext();
+export const ProductsContext = createContext();
 const ProductContextProvider = ({children}) => {
     const  [products ,setProducts]  =  useState([])
     useEffect(() => {
@@ -12,11 +12,10 @@ const ProductContextProvider = ({children}) => {
 
         fetchAPI()
     }, [])
-         console.log(products)
     return (
-        <ProductContext.Provider value={products}>
+        <ProductsContext.Provider value={products}>
             {children}
-        </ProductContext.Provider>
+        </ProductsContext.Provider>
     );
 };
 
