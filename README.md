@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+<h1>
+Preview
+</h1>
+
+
+![2022-12-12 14 13 24](https://user-images.githubusercontent.com/105700046/207025954-80780c45-9fbc-4773-8e83-1084b5977b7c.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
